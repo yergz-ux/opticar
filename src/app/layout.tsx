@@ -15,18 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "OptiCar – Headlight Restoration",
   description: "Professional headlight restoration.",
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.svg", type: "image/svg+xml" },
-    ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-    ],
-  },
+  icons: "/favicon.ico", // Version simple et directe
   manifest: "/site.webmanifest",
   themeColor: "#102D45",
 };
+
 
 export default function RootLayout({
   children,
